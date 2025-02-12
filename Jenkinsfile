@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/MahnoorFatima02/TimeCalculator.git'
+                git branch: 'main', url: 'git@github.com:MahnoorFatima02/TimeCalculator.git'
             }
         }
 
